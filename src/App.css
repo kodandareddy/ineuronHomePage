@@ -23,7 +23,7 @@
 body{
   font-family: 'Poppins', sans-serif !important;
    box-sizing: border-box;
-   font-size: 12px !important;
+   font-size: 16px !important;
 }
 .align-self{
   align-self: center;
@@ -44,7 +44,7 @@ body{
   color: var(--white) !important;
   border: none !important;
   padding: 10px 20px !important;
-  font-size: 12px !important;
+  font-size: 1rem !important;
   border-radius: 2px !important;
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px !important;
 }
@@ -52,11 +52,10 @@ body{
   margin: 20px auto;
 	border: none;
 	padding: 10px 30px;
-	font-size: 10px;
 	position: relative;
   border: 2px solid var(--blue);
   background-color: transparent;
-  font-size: 15px;
+  font-size: 1.5rem;
 }
 .main-what:hover{
   color: var(--white);
@@ -84,7 +83,7 @@ padding-left: 5px !important;
 padding-right: 5px !important;
 }
 .brand-logo{
-  width: 100px;
+  width: 150px;
 }
 .navbar-nav{
   margin-left: auto !important;
@@ -94,7 +93,7 @@ padding-right: 5px !important;
 .nav-link{
   font-weight: 100 !important;
   color: var(--white) !important;
-  font-size: 12px !important;
+  font-size: 1.2rem !important;
 }
 
 /* Hero section */
@@ -146,7 +145,7 @@ padding-right: 5px !important;
 }
 .whatSection svg{
   color: var(--light-blue);
-  font-size: 30px;
+  font-size: 2.5rem;
 }
 
 .slide-show{
@@ -190,7 +189,7 @@ color: var(--gray);
 
 .swiper-slide {
   text-align: center;
-  font-size: 18px;
+  font-size: 1.5rem;
   background: #fff;
 
   /* Center slide text vertically */
@@ -229,8 +228,8 @@ color: var(--gray);
   z-index: 10;
 }
 .testimonial .card{
-  width:70%;
-  height: 80%;
+  width:80%;
+  height: 90%;
   position: relative;
   z-index: 1;
   box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
@@ -243,14 +242,14 @@ color: var(--gray);
 }
 .testimonial  h2{
   margin-top: 40px;
-  font-size: 10px;
+  font-size: 1.5rem;
 }
 .testimonial .company {
    width: 100px;
 }
 .testimonial p{
   height: 100px;
-  font-size: 10px;
+  font-size: 0.9rem;
   overflow-y: scroll;
   margin-top: 10px;
   letter-spacing: 1.2px;
@@ -274,14 +273,14 @@ color: var(--gray);
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
   }
 .swiper-button-next::after,.swiper-button-prev::after{
-  font-size: 15px;
+  font-size: 1.5rem;
 }
 
 
 /* Our Products */
 
 .our_products .attribution { 
-  font-size: 11px; text-align: center; 
+  font-size: 1rem; text-align: center; 
 }
 .our_products .attribution a { 
   color: hsl(228, 45%, 44%); 
@@ -317,7 +316,7 @@ color: var(--gray);
   height: 100px;
 }
 .our_products  h1{
-  font-size: 30px;
+  font-size: 2.5rem;
 }
 
 
@@ -335,7 +334,7 @@ color: var(--gray);
 }
 
 .our_products h2 {
-  font-size: 20px;
+  font-size: 1.5rem;
 }
 /* Team */
 #team {
@@ -389,13 +388,13 @@ color: var(--gray);
 #team .member h4 {
   font-weight: 500;
   margin-bottom: 2px;
-  font-size: 18px;
+  font-size: 1.1rem;
   color: #fff;
 }
 #team .member span {
   font-style: italic;
   display: block;
-  font-size: 13px;
+  font-size: 0.8rem;
 }
 #team .member .social-links {
   margin-top: 15px;
@@ -414,7 +413,7 @@ color: var(--gray);
   transform: translateY(-5px);
 }
 #team .member .social-links i {
-  font-size: 18px;
+  font-size: 1.4rem;
   margin: 0 2px;
 }
 
@@ -478,7 +477,7 @@ hr{
     }
     .slide-show{
       max-width: 400px;
-     margin: 0 20px;
+     margin: 0 auto;
     }
    .testimonial .card{
      width: 100%;
@@ -486,18 +485,20 @@ hr{
    #team img{
     width: 100%;
    }
+   .our_products .box{
+    height: auto;
+   }
+   .our_products img {
+float: none;
+  }
   }
 
-  @media (max-width: 450px) {
-    .our_products .box {
-        height: 200px;
-    }
-  }
+
   
   @media (max-width: 950px) and (min-width: 450px) {
     .our_products .box {
         text-align: center;
-        height: 180px;
+        height: auto;
     }
     #team img{
       width: 50%;
@@ -522,7 +523,6 @@ hr{
     }
     .our_products .box {
         width: 20%;
-     
     }
    
     

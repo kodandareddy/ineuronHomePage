@@ -13,14 +13,14 @@ const WhatSection = () => {
   return (
     <section className="whatSection my-5 text-center">
       <Container>
-        <h5>What is iNeuron?</h5>
+        <h2>What is iNeuron?</h2>
         <Button className="main-btn mt-3">Watch the Video</Button>
         <Row className="my-3">
           <Col className="my-3" md={4} sm={6} xs={12}>
             <Card>
               <CardBody>
                 <FaCertificate />
-                <h6>Recruiting Profile & Certificate</h6>
+                <h3>Recruiting Profile & Certificate</h3>
                 <p>
                   Landing technical interviews can be harder than passing them.
                   Once you earn the AlgoExpert Certificate, we refer you to tech
@@ -33,7 +33,7 @@ const WhatSection = () => {
             <Card>
               <CardBody>
                 <FaRegFileVideo />
-                <h6>100+ Hours Of Video Explanations</h6>
+                <h3>100+ Hours Of Video Explanations</h3>
                 <p>
                   Algorithms are tough to learn on paper. Each of our questions
                   is accompanied by a two-part video explanation to maximize
@@ -47,7 +47,7 @@ const WhatSection = () => {
             <Card>
               <CardBody>
                 <FaCubes />
-                <h6>160 Hand-Picked Questions</h6>
+                <h3>160 Hand-Picked Questions</h3>
                 <p>
                   Coding interview prep is a numbers game that many candidates
                   lose. We've hand-picked 160 of the best coding interview
@@ -61,7 +61,7 @@ const WhatSection = () => {
             <Card>
               <CardBody>
                 <FaCode />
-                <h6>Mock Coding Interviews</h6>
+                <h3>Mock Coding Interviews</h3>
                 <p>
                   Nothing compares to doing a real coding interview with a real
                   human being. We let you do mock coding interviews with other
@@ -74,7 +74,7 @@ const WhatSection = () => {
             <Card>
               <CardBody>
                 <FaNewspaper />
-                <h6>Become an affiliate</h6>
+                <h3>Become an affiliate</h3>
                 <p>
                   Explore affiliate marketing opportunities with iNeuron and
                   attain financial frredom.
@@ -86,7 +86,7 @@ const WhatSection = () => {
             <Card>
               <CardBody>
                 <FaImage />
-                <h6>Highest in quality</h6>
+                <h3>Highest in quality</h3>
                 <p>
                   Here at iNeuron, we take quality very seriously. Every
                   video is produced with highest quality in audio, video and
