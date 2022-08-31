@@ -77,6 +77,13 @@ body{
 .main-btn:active{
   transform: scale(0.98);
 }
+.navbar{
+position:fixed !important;
+top: 0;
+width: 100%;
+padding: 20px 0 !important;
+z-index: 20;
+}
 .navbar-toggler{
 background-color: var(--white) !important;
 padding-left: 5px !important;
@@ -149,11 +156,11 @@ padding-right: 5px !important;
 }
 
 .slide-show{
-  max-width: 900px;
-   margin: 100px auto;
+  max-width: 1000px;
+   margin: 150px auto;
   background-color: var(--white);
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-  padding: 30px;
+  padding: 100px 150px;
   border-radius: 5px;
   
 }
@@ -167,7 +174,7 @@ color: var(--gray);
 
 }
 .logo-slider img{
-  width: 50px;
+  width: 70px;
   filter: grayscale(100%);
   opacity: 0.5;
   margin: 0 30px;
@@ -214,7 +221,9 @@ color: var(--gray);
   margin: 10px auto;
 }
 
-
+.testimonial {
+  margin: 120px 0;
+}
 .testimonial .user{
   width: 50px;
   height: 50px;
@@ -278,7 +287,9 @@ color: var(--gray);
 
 
 /* Our Products */
-
+.our_products{
+  margin: 50px 0;
+}
 .our_products .attribution { 
   font-size: 1rem; text-align: center; 
 }
@@ -441,6 +452,9 @@ hr{
   justify-content: center;
   height: 100vh;
 }
+.team{
+  margin: 100px 0;
+}
 @keyframes marquee {
 	0%   { transform: translateX(0%); }
 	100% { transform: translateX(-100%); }
@@ -477,7 +491,8 @@ hr{
     }
     .slide-show{
       max-width: 400px;
-     margin: 0 auto;
+     margin: 0 20px;
+     padding: 10px;
     }
    .testimonial .card{
      width: 100%;

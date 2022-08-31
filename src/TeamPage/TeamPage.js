@@ -3,7 +3,7 @@ import { Container } from "reactstrap";
 
 const TeamPage = () => {
   return (
-    <section id="team" className="py-5">
+    <section id="team" className="py-5 team">
       <div class="container">
         <div class="row justify-content-center">
           <div class="col-md-6">
